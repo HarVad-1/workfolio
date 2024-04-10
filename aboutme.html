@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>About Me</title>
+</head>
+<style>
+    nav,body{
+        background-image: url(./about\ me.jpg);
+        background-size: 100%;
+        padding-left: 20px;
+    }
+    .name>h1{
+        font-family: 'DM Sans', sans-serif;
+        color: aliceblue;
+        padding-top: 100px;
+        font-size: 75px;
+        display: flex;
+        justify-content: center;
+    }
+    p{
+        font-family: 'DM Sans', sans-serif;
+        color: aliceblue;
+    }
+    .myself{
+        /* max-width: 750px; */
+        display: flex;
+        justify-content: right;
+    }
+    h2{
+        font-family: 'DM Sans', sans-serif;
+        color: aliceblue;
+        /* padding-left: 200px; */
+    }
+    .eduback{
+        display: flex;
+        justify-content: center;
+        color: aliceblue;
+        font-family: 'DM Sans', sans-serif;
+        max-width: 500px;
+    }
+    table,th,tr,td{
+        border: 2px solid;
+        border-radius: 5%;
+    }
+    .proexp>p,.Certification>p{
+        padding-left: 20px;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body fixed-top">
+        <div class="container-fluid">
+          <button
+            data-mdb-collapse-init
+            class="navbar-toggler"
+            type="button"
+            data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" target="_blank" href="./main.html" style="color :whitesmoke;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_self" href="./aboutme.html" style="color :whitesmoke; ">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="./portfolio.html" style="color :whitesmoke; ">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="./resume.html" style="color :whitesmoke; ">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="./testimonial.html" style="color :whitesmoke; ">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="./skills.html" style="color :whitesmoke; ">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="./contact.html" style="color :whitesmoke; ">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="./index.html" style="color: blanchedalmond; ">Take me Back</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="name">
+        <h1>Sriharsha Vadavalli</h1>
+      </div>
+      <div class="myself">
+        <p>Myself a motivated and aspirational student with experience in Python, C++, and JavaScript. <br>I am excited to gain technical knowledge from the current industry and use it to get a cooperative, growth-oriented internship opportunity.</p>
+      </div>
+      <div class="educational">
+        <h2>Educational Background</h2>
+        <div class="eduback">
+            <table class="table align-middle">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Educational Institute</th>
+                    <th scope="col">Year</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Johnson Grammar School</td>
+                    <td>2010-2020</td>
+                  </tr>
+                  <tr class="align-bottom">
+                    <th scope="row">2</th>
+                    <td>FIITJEE Junior College</td>
+                    <td>2020-2022</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>VIT,Vellore</td>
+                    <td>2022-2026(exp)</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+      </div>
+      <div class="Certification">
+        <h2>Certifications</h2>
+            <p>1. Web-Development Certification from Udemy under the instructor Angela Yu.</p>
+            <p>2. Python 2024 BootCamp from Udemy under the instructor Angela Yu.</p>
+            <p>3. IBM Applied AI certification from IBM from coursera.org</p>
+      </div>
+      <div class="proexp">
+        <h2>Professional Experience</h2>
+        <p>▷ Not yet employed</p>
+        <p>▷ Worked as a freelancer for 3 weeks in my First year of Engineering</p>
+      </div>
+</body>
+</html>

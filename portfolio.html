@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Portfolio</title>
+    <style>
+        .heading>h1{
+            padding-top: 75px;
+            display: flex;
+            justify-content: left;
+            font-size: 98px;
+            font-family:'DM Sans', sans-serif;
+            color: azure;
+        }
+        nav,body{
+            background-image: url(./portfolio.jpg);
+            background-size: 100%;
+            padding-left: 20px;
+        }
+        .svg{
+            height: 50px;
+            width: 50px;
+        }
+        p,h2{
+            font-family:'DM Sans', sans-serif;
+            color: azure;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        h2{
+            font-size: 36px;
+        }
+        .projects{
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body fixed-top">
+        <div class="container-fluid">
+          <button
+            data-mdb-collapse-init
+            class="navbar-toggler"
+            type="button"
+            data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" target="_blank" href="./main.html" style="color :whitesmoke;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="./aboutme.html" style="color :whitesmoke; ">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_self" href="./portfolio.html" style="color :whitesmoke; ">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="./resume.html" style="color :whitesmoke; ">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="./testimonial.html" style="color :whitesmoke; ">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="./skills.html" style="color :whitesmoke; ">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="./contact.html" style="color :whitesmoke; ">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="./index.html" style="color: blanchedalmond; ">Take me Back</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="heading">
+        <h1>My Top Projects.</h1>
+    </div>
+    <div class="projects">
+        <div class="one">
+            <img class="svg" src="./one.png" alt="one">
+            <h2>HangMan Game</h2>
+            <p>Small Game developed using HTML,CSS,JS,Py</p>
+            <p>In this particular game,The user has to guess the word</p>
+            <p>The catch is that he would be having only 5 chances to guess.</p>
+            <p>If he fails then the man would hang himself and would die.</p>
+            <img src="./rope-24291_1920.png" alt="hangman">
+        </div>
+        <div class="two">
+            <img class="svg" src="./two.png" alt="two">
+            <h2>Snake Game</h2>
+            <p>The famous game which was first on NOKIA 3310.
+            </p>
+            <p>I've developed the entire game using just python.</p>
+            <p>In this game,there would be a food particle</p>
+            <p>If the snake eats it,it grows in size.</p>
+            <p>Neither the walls nor the tails should be hit by the snake</p>
+            <img src="./snake2.png" alt="snake">
+        </div>
+        <div class="three">
+            <img class="svg" src="./three.png" alt="three">
+            <h2>Cyber-Security in Health Care System</h2>
+            <p>A project that enhances the current security levels in health care industry.
+            </p>
+            <p>It involves getting into that CIA triad and try to enhance the existing algos</p>
+            <p>Inorder to get a better security in the most vulnerable Industry</p>
+            <p>This project has not been completed yet,but will be out very soon!</p>
+            <img src="./cybersecurity-6949298_1920.png" alt="thief">
+        </div>
+    </div>
+</body>
+</html>

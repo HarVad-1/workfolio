@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HarVad-1/workfolio.git/static/css/main.c0351867.css",
+    "main.js": "/HarVad-1/workfolio.git/static/js/main.f9cc7dac.js",
+    "static/js/453.ed3810f9.chunk.js": "/HarVad-1/workfolio.git/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/HarVad-1/workfolio.git/index.html",
+    "main.c0351867.css.map": "/HarVad-1/workfolio.git/static/css/main.c0351867.css.map",
+    "main.f9cc7dac.js.map": "/HarVad-1/workfolio.git/static/js/main.f9cc7dac.js.map",
+    "453.ed3810f9.chunk.js.map": "/HarVad-1/workfolio.git/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0351867.css",
+    "static/js/main.f9cc7dac.js"
+  ]
+}
